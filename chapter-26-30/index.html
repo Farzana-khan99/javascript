@@ -50,11 +50,43 @@
 // browser.:
 
 
-let RandomNum = +prompt("select the number")
-let num = " "
-if ( RandomNum === num){
-    console.log(Math.random(RandomNum * num))
+// let RandomNum = +prompt("select the number")
+// let num = " "
+// if ( RandomNum === num){
+//     console.log(Math.random(RandomNum * num))
+// }
+
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+
+// let randNum = Math.random()
+// let num = (randNum*100)-1
+// let result = Math.floor(num)
+// console.log("random number is "+ " " +result)
+
+// 8. Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+
+
+let secretNum = Number(prompt("Enter your secret number between 1 to 10"));
+
+let randNum = Math.random();
+let num =(randNum *11)-1
+let output = Math.floor(num)
+let found = true
+console.log(output)
+if(secretNum === num ){
+    alert("congratulate the user.")
+    found = true;
+    
 }
+if(!found)
+{
+    alert("not valid number")
+ }
+
 
     </script>
 </body>
