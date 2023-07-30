@@ -109,10 +109,17 @@ console.log("Result:"+ " " +txt)
 // enters cookie, Cookie, COOKIE or coOkIE, program
 // should inform about its availability. Example:
 
+// 16. Write a program to convert the following string to an
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+var university = "University of Karachi";
+console.log(university.split(''))
 
 // 17. Write a program to display the last character of a user
 // input.
-let words  = prompt("user input");
 
-let  wordsIndex = words.charAt(7)
-console.log("last character of input  :  "+ " "+ wordsIndex)
+// let words  = prompt("user input");
+// let  wordsIndex = words.charAt(7)
+// console.log("last character of input  :  "+ " "+ wordsIndex)
